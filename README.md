@@ -6,7 +6,7 @@ Based on the paper [An Apparent Paradox: A Classifier Trained from a Partially C
 
 ### About the SAR Data
 
-The SAR data products used as input in the script [SAR fit.R](SAR fit.R) are [cov_chol_d10_m1_cc.Rds](cov_chol_d10_m1_cc.Rds) and [labsp_d10.Rds](labsp_d10.Rds).
+The SAR data products used as input in the script [SAR_fit.R](SAR_fit.R) are [cov_chol_d10_m1_cc.Rds](cov_chol_d10_m1_cc.Rds) and [labsp_d10.Rds](labsp_d10.Rds).
 
 Original SAR Data is available on [this Zenodo archive](https://zenodo.org/record/4008883). From there, the 2x2 log-Cholesky transformed 1-lag autocovariance matrix of each pixel (over time) in the sequence of SAR images was obtained, after down-sampling using mean aggregation within 10x10 patches of pixels. Each 2x2 log-Chol matrix was then transformed to a 3-tuple, using equation (6) from the paper [here]( https://arxiv.org/pdf/2008.03454.pdf). This processing was done within the script [R/SAR_application.R](https://github.com/frycast/kmspd/blob/master/R/SAR_application.R) in the repo [frycast/kmspd](https://github.com/frycast/kmspd).
 
