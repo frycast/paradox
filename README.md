@@ -4,7 +4,7 @@ A work in progress in semi-supervised generative classification.
 
 Based on the paper [An Apparent Paradox: A Classifier Trained from a Partially Classified Sample May Have Smaller Expected Error Rate Than That If the Sample Were Completely Classified](https://arxiv.org/abs/1910.09189), by Daniel Ahfock and Geoff Mclachlan.
 
-### About the SAR Data
+### About the Synthetic Aperture Radar (SAR) Data
 
 The SAR data products used as input in the script [SAR_fit.R](SAR_fit.R) are [cov_chol_d10_m1_cc.Rds](cov_chol_d10_m1_cc.Rds) and [labsp_d10.Rds](labsp_d10.Rds).
 
